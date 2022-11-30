@@ -119,3 +119,43 @@ h3 {
     opacity: 1;
     right: 0;
   }
+
+  .doggo_returnindex {
+    font-family: Verdana, Geneva, sans-serif;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .doggo_returnindex span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .doggo_returnindex span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .doggo_returnindex:hover span {
+    padding-right: 25px;
+  }
+  
+  .doggo_returnindex:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
