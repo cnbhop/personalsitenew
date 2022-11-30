@@ -5,3 +5,5 @@ I'm gonna learn in the future to make a bar at the top of the screen like my goo
 
 Made this with Visual Studio Code and the Live Preview extension.
 
+I used a lot of CSS Cheat Sheets and button references to create the custom CSS you see on this website.
+
