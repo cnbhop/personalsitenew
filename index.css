@@ -60,27 +60,46 @@ h3 {
 }
 
 .blogbutton {
-	box-shadow:inset 0px 1px 0px 0px #cf866c;
-	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
-	background-color:#d0451b;
-	border-radius:3px;
-	border:1px solid #942911;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-    font-family: Verdana, Geneva, sans-serif;
-	font-size:13px;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #854629;
+  background: #A298F4;
+  background-image: -webkit-linear-gradient(top, #A298F4, #D0C1A2);
+  background-image: -moz-linear-gradient(top, #A298F4, #D0C1A2);
+  background-image: -ms-linear-gradient(top, #A298F4, #D0C1A2);
+  background-image: -o-linear-gradient(top, #A298F4, #D0C1A2);
+  background-image: -webkit-gradient(to bottom, #A298F4, #D0C1A2);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+  font-family: Verdana;
+  width: 335px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 0 1px 8px #000000;
+  border: groove #337FED 6px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
 }
+
 .blogbutton:hover {
-	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
-	background-color:#bc3315;
-}
-.blogbutton:active {
-	position:relative;
-	top:1px;
+  border: groove #D0C1A2 6px;
+  background: #A298F4;
+  background-image: -webkit-linear-gradient(top, #A298F4, #000000);
+  background-image: -moz-linear-gradient(top, #A298F4, #000000);
+  background-image: -ms-linear-gradient(top, #A298F4, #000000);
+  background-image: -o-linear-gradient(top, #A298F4, #000000);
+  background-image: -webkit-gradient(to bottom, #A298F4, #000000);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }
 .tfcmd {
 	box-shadow:inset 0px 1px 0px 0px #a6827e;
@@ -161,3 +180,30 @@ h3 {
   .dropdown a:hover {background-color: #ddd;}
   
   .show {display: block;}
+
+.aboutme {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Verdana;
+	font-size:16px;
+	font-weight:bold;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.aboutme:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+}
+.aboutme:active {
+	position:relative;
+	top:1px;
+}
+
+        
