@@ -85,7 +85,7 @@ h3 {
 }
 .dropbtn {
     font-family: Verdana, Geneva, sans-serif;
-    background-color: #04AA6D;
+    background-color: #2b2b2b;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -94,7 +94,7 @@ h3 {
   }
   
   .dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
+    background-color: #666666;
   }
   
   #myInput {
@@ -109,7 +109,7 @@ h3 {
     border-bottom: 1px solid #ddd;
   }
   
-  #myInput:focus {outline: 3px solid #ddd;}
+  #myInput:focus {outline: 3px solid rgb(58, 58, 58);}
   
   .dropdown {
     position: relative;
@@ -121,7 +121,7 @@ h3 {
     font-family: Verdana, Geneva, sans-serif;
     display: none;
     position: absolute;
-    background-color: #f6f6f6;
+    background-color: #000000;
     min-width: 230px;
     overflow: auto;
     border: 1px solid #ddd;
@@ -130,13 +130,13 @@ h3 {
   
   .dropdown-content a {
     font-family: Verdana, Geneva, sans-serif;
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
   
-  .dropdown a:hover {background-color: #ddd;}
+  .dropdown a:hover {background-color: rgb(24, 24, 24);}
   
   .show {display: block;}
 
