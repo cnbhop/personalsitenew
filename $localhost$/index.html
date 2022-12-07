@@ -1,0 +1,71 @@
+<link rel="stylesheet" href="index.css">
+<script>    
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    function filterFunction() {
+      var input, filter, ul, li, a, i;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      div = document.getElementById("myDropdown");
+      a = div.getElementsByTagName("a");
+      for (i = 0; i < a.length; i++) {
+        txtValue = a[i].textContent || a[i].innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          a[i].style.display = "";
+        } else {
+          a[i].style.display = "none";
+        }
+      }
+    }
+    </script>
+
+<title>Personal Website | Index</title>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="photos.html">Photos</a>
+  <a href="aboutme.html">About Me</a>
+  <a href="rambleroot.html">Ramble or Something... idk</a>
+</div>
+<h1>Personal Website</h1>
+<hr>
+<h2>Important! If a pages theme does not load, refresh the page!</h2>
+<p>Hey, welcome to my personal website, i'm doing a rebrand from Google Sites since i wanted to do something that was more hands on. I love Google Sites don't get me wrong but i want to get better in HTML and CSS / JS so yeah.</p>
+<p>I just put random stuff on here like photos and whatnot, I have to get all the pictures from my Google Sites and put it on here.</p>
+<p>Let me know if this navbar looks okay, i replaced it since the buttons got a little boring. They are too generic.</p>
+<!--<a href="rambleroot.html" class="commonbutton">Ramble or Something... idk</a>
+<a href="aboutme.html" class="commonbutton">About Me</a>
+<a href="photos.html" class="commonbutton">Photos</a>-->
+
+<hr>
+<h1>Stuff I Do</h1>
+<p>I do Source Engine mapping / programming, I am also created a game script and working on a custom game engine for that game. In the mean time, i'll stick to using Unreal Engine 5, and in the long run, if it goes out well, it will be my main game engine :)</p><a href="aboutme.html" class="commonbutton">About Me</a>
+<hr>
+
+
+
+<p></p>
+
+<!--
+  Remove because of issues.
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Search for a Page</button>
+    <div id="myDropdown" class="dropdown-content">
+      <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+      <a href="/index.html">Index</a>
+      <a href="/rambleroot.html">Ramble or Something idk...</a>
+      <a href="/aboutme.html">About Me</a> 
+      <a herf="/photos.html">Photos</a>
+      <a herf="/photos_html/beach_photos/beachphotos_all.html">Beach Photos, All</a>
+      <a herf="/photos_html/beach_photos/beachphotos_page1.html">Beach Photos, Section 1</a>
+      <a herf="/photos_html/beach_photos/beachphotos_page2.html">Beach Photos, Section 2</a>
+      <a herf="/photos_html/beach_photos/beachphotos_page3.html">Beach Photos, Section 3</a>
+      <a href="ramblepages/1132022.html">11-3-2022 | COD MWII 2022</a>
+      <a href="ramblepages/11292022.html">11-29-2022 | The Forest</a>
+      <a href="ramblepages/11302022.html">11-30-2022 | Sons of The Forest</a> 
+      <a href="ramblepages/1272022.html">12-7-2022 | Forza</a> 
+    </div>
+  </div>-->
+
+
