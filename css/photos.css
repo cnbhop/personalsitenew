@@ -147,48 +147,31 @@ h3 {
   
   .show {display: block;}
 
-  .returnbutton {
-    background: #1D00FF;
-    background-image: -webkit-linear-gradient(top, #1D00FF, #002F7B);
-    background-image: -moz-linear-gradient(top, #1D00FF, #002F7B);
-    background-image: -ms-linear-gradient(top, #1D00FF, #002F7B);
-    background-image: -o-linear-gradient(top, #1D00FF, #002F7B);
-    background-image: -webkit-gradient(to bottom, #1D00FF, #002F7B);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    height: 48px;
-    line-height: 48px;
-    color: #FFFFFF;
-    font-family: Verdana;
-    width: 112px;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 0;
-    -webkit-box-shadow: 1px 1px 20px 0 #000000;
-    -moz-box-shadow: 1px 1px 20px 0 #000000;
-    box-shadow: 1px 1px 20px 0 #000000;
-    text-shadow: 0 1px 8px #000000;
-    border: groove #337FED 6px;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
- }
- 
- .returnbutton:hover {
-    border: groove #0059A0 6px;
-    background: #0043AF;
-    background-image: -webkit-linear-gradient(top, #0043AF, #3D94F6);
-    background-image: -moz-linear-gradient(top, #0043AF, #3D94F6);
-    background-image: -ms-linear-gradient(top, #0043AF, #3D94F6);
-    background-image: -o-linear-gradient(top, #0043AF, #3D94F6);
-    background-image: -webkit-gradient(to bottom, #0043AF, #3D94F6);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    text-decoration: none;
- }
+.returnbutton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	background-color:#f9f9f9;
+	border-radius:6px;
+	border:1px solid #c4c4c4;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e8e8e8;
+}
+.returnbutton:hover {
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	background-color:#e9e9e9;
+}
+.returnbutton:active {
+	position:relative;
+	top:1px;
+}
+
 
 /* NOT USED ANYMORE
   .blogbutton {
