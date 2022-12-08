@@ -7,3 +7,9 @@ Made this with Visual Studio Code and the Live Preview extension, most of the pr
 
 I used a lot of CSS Cheat Sheets and button references to create the custom CSS you see on this website.
 
+# Plans
+
+I want to create some more pages of just photos, mainly just for showing off some old photos i have and also having a place to share them.
+Create hover over button sounds and clicked sounds, released sounds and deny sounds.
+Clean the website up a little bit, mainly the look and feel of it.
+
