@@ -1,25 +1,4 @@
 <link rel="stylesheet" href="wb-content/index.css">
-<script>    
-    function myFunction() {
-      document.getElementById("myDropdown").classList.toggle("show");
-    }
-    
-    function filterFunction() {
-      var input, filter, ul, li, a, i;
-      input = document.getElementById("myInput");
-      filter = input.value.toUpperCase();
-      div = document.getElementById("myDropdown");
-      a = div.getElementsByTagName("a");
-      for (i = 0; i < a.length; i++) {
-        txtValue = a[i].textContent || a[i].innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-          a[i].style.display = "";
-        } else {
-          a[i].style.display = "none";
-        }
-      }
-    }
-    </script>
 
 <title>Personal Website | Index</title>
 <div class="topnav">
@@ -27,6 +6,7 @@
   <a href="subpages/photos.html">Photos</a>
   <a href="subpages/aboutme.html">About Me</a>
   <a href="subpages/rambleroot.html">Ramble or Something... idk</a>
+  <a href="subpages/webissues/webissues.html">Issues</a>
 </div>
 <h1>Personal Website</h1>
 <hr>
