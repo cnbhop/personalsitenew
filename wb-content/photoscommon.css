@@ -123,6 +123,11 @@ h3 {
   right: 0;
 }
 
+hr {
+  width:50%;
+  margin:0 auto;
+}
+
 /* NOT USED ANYMORE
   .blogbutton {
     box-shadow: 0px 1px 0px 0px #fff6af;
