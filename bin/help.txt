@@ -1,0 +1,1 @@
+Bin folder is mainly scripts and css styles for the website, javascript later.
