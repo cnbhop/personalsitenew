@@ -32,7 +32,7 @@ p
     top:-18px;
     float:right;
     font-size:15px;
-    width:100%;
+    width:auto;
     height:10px;
     line-height:10px;
     content:attr(name);
