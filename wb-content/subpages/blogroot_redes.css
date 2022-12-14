@@ -17,7 +17,7 @@ p
 .window
 {
     position:static;
-    background-color:#140049;
+    background-color:#00906e;
     padding:10px;
     margin:0 0 20px;
     max-width:auto;
@@ -32,7 +32,7 @@ p
     top:-18px;
     float:right;
     font-size:15px;
-    width:auto;
+    width:100%;
     height:10px;
     line-height:10px;
     content:attr(name);
@@ -42,44 +42,12 @@ p
 }
 .writebox
 {
-    background-color:#292929;
+    background-color:#444444;
     border-top:solid 1px #292d23;
     border-bottom:solid 1px #899281;
     border-left:solid 1px #292d23;
     border-right:solid 1px #899281;
     padding:0 12px 12px
-}
-.writebox
-{
-    background-color:#292929;
-    border-top:solid 1px #292d23;
-    border-bottom:solid 1px #899281;
-    border-left:solid 1px #292d23;
-    border-right:solid 1px #899281;
-    padding:0 12px 12px
-}
-.linkbutton {
-	box-shadow:inset 0px -3px 7px 0px #29bbff;
-	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
-	background-color:#2dabf9;
-	border-radius:3px;
-	border:1px solid #0b0e07;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Verdana;
-	font-size:15px;
-	padding:9px 23px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #263666;
-}
-.linkbutton:hover {
-	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
-	background-color:#0688fa;
-}
-.linkbutton:active {
-	position:relative;
-	top:1px;
 }
 .commonbutton {
 	box-shadow:inset 0px 1px 0px 0px #a6827e;
